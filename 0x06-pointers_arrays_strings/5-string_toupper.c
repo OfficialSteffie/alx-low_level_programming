@@ -5,11 +5,11 @@
  *
  * Return: n
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 	int i;
 
-	i = 0
+	i = 0;
 	while (n[i] != '\0')
 	{
 		if (n[i] >= 'a' && n[i] <= 'z')
